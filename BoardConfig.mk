@@ -39,14 +39,14 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 11936989184
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_PREBUILT_KERNEL := device/samsung/j5y17lte/Image
-TARGET_PREBUILT_DTB := device/samsung/j5y17lte/dt.img
+TARGET_PREBUILT_KERNEL := device/samsung/j7y17lte/Image
+TARGET_PREBUILT_DTB := device/samsung/j7y17lte/dt.img
 
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/j5y17lte/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/j7y17lte/bootimg.mk
 
 
 # TWRP specific build flags

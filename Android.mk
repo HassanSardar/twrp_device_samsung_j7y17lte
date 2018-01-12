@@ -1,4 +1,4 @@
-ifneq ($(filter j5y17lte j5y17ltexx,$(TARGET_DEVICE)),)
+ifneq ($(filter j7y17lte j7y17ltexx,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
