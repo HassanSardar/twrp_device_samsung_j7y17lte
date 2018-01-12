@@ -1,0 +1,64 @@
+# J530F Block legend
+
+BOOT---->		/dev/block/mmcblk0p10
+BOTA0---->		/dev/block/mmcblk0p1
+BOTA1---->		/dev/block/mmcblk0p2
+CACHE---->		/dev/block/mmcblk0p19
+CARRIER	---->	/dev/block/mmcblk0p8
+CPEFS---->		/dev/block/mmcblk0p4
+CP_DEBUG---->	/dev/block/mmcblk0p21
+EFS	---->		/dev/block/mmcblk0p3
+HIDDEN---->		/dev/block/mmcblk0p20
+NAD_FW---->		/dev/block/mmcblk0p22
+NAD_REFER---->	/dev/block/mmcblk0p23
+OTA	---->		/dev/block/mmcblk0p12
+PARAM---->		/dev/block/mmcblk0p9
+PERSISTENT---->	/dev/block/mmcblk0p15
+RADIO---->		/dev/block/mmcblk0p13
+RECOVERY---->	/dev/block/mmcblk0p11
+RESERVED2---->	/dev/block/mmcblk0p17
+STEADY---->		/dev/block/mmcblk0p16
+SYSTEM---->		/dev/block/mmcblk0p18
+TOMBSTONES---->	/dev/block/mmcblk0p14
+USERDATA---->	/dev/block/mmcblk0p24
+m9kefs1	---->	/dev/block/mmcblk0p5
+m9kefs2	---->	/dev/block/mmcblk0p6
+m9kefs3	---->	/dev/block/mmcblk0p7
+
+# Partition Size (in KiloBytes)
+
+   7        0     163840 loop0
+ 253        0    1572864 vnswap0
+ 179        0   15388672 mmcblk0
+ 179        1       4096 mmcblk0p1
+ 179        2       4096 mmcblk0p2
+ 179        3      20480 mmcblk0p3
+ 179        4       8192 mmcblk0p4
+ 179        5       4096 mmcblk0p5
+ 179        6       4096 mmcblk0p6
+ 179        7       4096 mmcblk0p7
+ 259        0       1024 mmcblk0p8
+ 259        1       8192 mmcblk0p9
+ 259        2      32768 mmcblk0p10
+ 259        3      38912 mmcblk0p11
+ 259        4       8192 mmcblk0p12
+ 259        5      90112 mmcblk0p13
+ 259        6       1024 mmcblk0p14
+ 259        7        512 mmcblk0p15
+ 259        8       4096 mmcblk0p16
+ 259        9       7680 mmcblk0p17
+ 259       10    3145728 mmcblk0p18
+ 259       11     204800 mmcblk0p19
+ 259       12     102400 mmcblk0p20
+ 259       13       5120 mmcblk0p21
+ 259       14      20480 mmcblk0p22
+ 259       15       1024 mmcblk0p23
+ 259       16   11657216 mmcblk0p24
+ 179       24      16384 mmcblk0rpmb
+ 179       16       4096 mmcblk0boot1
+ 179        8       4096 mmcblk0boot0
+ 179       32  124868608 mmcblk1
+ 179       33  113502208 mmcblk1p1
+ 179       34      16384 mmcblk1p2
+ 179       35   10827776 mmcblk1p3
+ 179       36     521199 mmcblk1p4
