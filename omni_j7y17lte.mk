@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := j7y17lte
+PRODUCT_RELEASE_NAME := Galaxy J7 Pro
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
