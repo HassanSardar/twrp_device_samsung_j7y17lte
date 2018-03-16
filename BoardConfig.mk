@@ -86,6 +86,9 @@ TWRP_EVENT_LOGGING := false
 #TARGET_RECOVERY_DEVICE_MODULES := libinit_sec
 #TARGET_LIBINIT_DEFINES_FILE := device/samsung/j5y17lte/init/init_sec.cpp
 
+# Custom version
+TW_DEVICE_VERSION := J7-Pro-O
+
 # Charger/Healthd
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
 BOARD_CHARGER_ENABLE_SUSPEND := true
